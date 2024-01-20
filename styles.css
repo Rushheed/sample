@@ -132,7 +132,7 @@ p {
 
 /* section */
 .section {
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 
 .section-center {
@@ -177,6 +177,10 @@ main {
   width: 80vw;
   max-width: var(--fixed-width);
 }
+.container1 {
+    max-width: var(--fixed-width);
+  }
+  
 .review {
   background: var(--clr-white);
   padding: 1.5rem 2rem;
@@ -204,7 +208,7 @@ main {
   border-radius: 50%;
   position: relative;
 }
-.img-container::after {
+/* .img-container::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f10e";
@@ -219,7 +223,7 @@ main {
   transform: translateY(25%);
   background: var(--clr-primary-5);
   color: var(--clr-white);
-}
+} */
 .img-container::before {
   content: "";
   width: 100%;
