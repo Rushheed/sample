@@ -2,32 +2,36 @@
 const reviews = [
     {
       id: 1,
-      name: 'rashy wayne',
+      name: 'JavaScript',
       job: 'web developer',
-      img: 'https://res.cloudinary.com/dzqx4v0al/image/upload/v1705751667/Mee_k2mbwg.jpg',
-      text: "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
+      img: 'https://res.cloudinary.com/dzqx4v0al/image/upload/v1705760755/JS_xtohhz.png',
     },
     {
-      id: 2,
-      name: 'Azeemah',
-      job: 'web designer',
-      img: 'https://res.cloudinary.com/dzqx4v0al/image/upload/v1705751668/ciik_vm35bk.png',
-      text: 'Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.',
-    },
-    {
-      id: 3,
-      name: 'adele zeem',
-      job: 'intern',
-      img: 'https://res.cloudinary.com/dzqx4v0al/image/upload/v1705751667/zee_lqxp4t.jpg',
-      text: 'Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.',
-    },
-    {
-      id: 4,
-      name: 'Oladoja Abdul',
-      job: 'the boss',
-      img: 'https://res.cloudinary.com/dzqx4v0al/image/upload/v1705751667/Me_l53nuh.jpg',
-      text: 'Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ',
-    },
+        id: 1,
+        name: 'CSS',
+        job: 'web developer',
+        img: 'https://res.cloudinary.com/dzqx4v0al/image/upload/v1705760755/CSS_vnz5ru.png',
+      },
+      {
+        id: 1,
+        name: 'HTML',
+        job: 'web developer',
+        img: 'https://res.cloudinary.com/dzqx4v0al/image/upload/v1705760755/Html_rm7aep.png',
+      },
+      {
+        id: 1,
+        name: 'React',
+        job: 'web developer',
+        img: 'https://res.cloudinary.com/dzqx4v0al/image/upload/v1705760755/ReactJs_md3zn9.png',
+      },
+      {
+        id: 1,
+        name: 'WordPress',
+        job: 'web developer',
+        img: 'https://res.cloudinary.com/dzqx4v0al/image/upload/v1705760757/WordPress_o6dcsn.png',
+      },
+   
+    
   ];
   // select items
   const img = document.getElementById('person-img');
