@@ -9,6 +9,7 @@
   <title>My Portfolio</title>
   <script src="https://code.jquery.com/jquery-3.6.0.main.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
         <nav class="flex justify-between items-center py-3 bg-green-700 w-full"> 
@@ -66,38 +67,40 @@
         </section>
         
 
-        <section id="skills" class=" bg-green-700 flex flex-col items-center mt-6">
-            <div class=" container min-h-screen ">
-              <h3 class="text-center text-white font-extrabold text-4xl py-10">
-                <i class="fa-solid fa-list-ol mr-3 rounded bg-green-300"></i>
-                My Skills
-              </h3>
+        <div class="bg-green-700 mt-6 flex items-center justify-center">
+            <main class="lg:w-[50%]">
+                <section class="container">
+                    <!-- title -->
+                    <div class="title">
+                        <h2>our reviews</h2>
+                        <div class="underline"></div>
+                    </div>
+                    <!-- reviews -->
+                    <article class="review">
+                        <div class="img-container">
+                            <img src="/Me.jpeg" id="person-img" alt=""/>
+                        </div>
+                        <h4 id="author"> Rashy Wayne</h4>
+                        <p id="job">Frontend Developer</p>
+                        <p id="info">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ad nisi obcaecati, ipsa illum eum aliquid praesentium magnam facere commodi officia voluptate esse ratione quos dolorum veniam, sit voluptas aspernatur.
+                        </p>
+                        <!-- prev and next buttons -->
+                        <div class="button-container">
+                            <button class="prev-btn">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button class="next-btn">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        <!-- random button -->
+                        <button class="random-btn">surprise me</button>
+                    </article>
+                </section>
+            </main>
+        </div>
         
-              <div class=" flex flex-col lg:flex-row lg:justify-evenly items-center leading-10 font-extrabold">
-                <div class="inline-block bg-white pr-20 pl-8 py-10 m-10 shadow-inner shadow-blue-950">
-                  <h4 class="text-2xl">Technology skills</h4>
-                  <h4><i class="fa-solid fa-check bg-blue-950 text-white rounded mr-2"></i>HTML</h4>
-                  <h4><i class="fa-solid fa-check bg-blue-950 text-white rounded mr-2"></i>CSS</h4>
-                  <h4><i class="fa-solid fa-check bg-blue-950 text-white rounded mr-2"></i>Javascript</h4>
-                  <h4><i class="fa-solid fa-check  bg-blue-950 text-white rounded mr-2"></i>tailwind CSS</h4>
-                  <h4><i class="fa-solid fa-check  bg-blue-950 text-white rounded mr-2"></i>ReactJS</h4>
-                  <h4><i class="fa-solid fa-check  bg-blue-950 text-white rounded mr-2"></i>UI/UX</h4>
-                  <h4><i class="fa-solid fa-check  bg-blue-950 text-white rounded mr-2"></i>Graphics Design</h4>
-                  <h4><i class="fa-solid fa-check  bg-blue-950 text-white rounded mr-2"></i>Wordpress</h4>
-                </div>
-                <div class="inline-block bg-white pr-20 pl-8 py-10 m-10 shadow-inner shadow-blue-950">
-                  <h3 class="text-2xl">Soft Skills</h3>
-                  <h4><i class="fa-solid fa-check  bg-blue-950 text-white rounded mr-2"></i>Creativity</h4>
-                  <h4><i class="fa-solid fa-check  bg-blue-950 text-white rounded mr-2"></i>Communication</h4>
-                  <h4><i class="fa-solid fa-check  bg-blue-950 text-white rounded mr-2"></i>Teamwork</h4>
-                  <h4><i class="fa-solid fa-check  bg-blue-950 text-white rounded mr-2"></i>Time management</h4>
-                  <h4><i class="fa-solid fa-check  bg-blue-950 text-white rounded mr-2"></i>Leadership</h4>
-                  <h4><i class="fa-solid fa-check  bg-blue-950 text-white rounded mr-2"></i>Analytical Skills</h4>
-                  <h4><i class="fa-solid fa-check  bg-blue-950 text-white rounded mr-2"></i>Problem-solving</h4>
-                </div>
-              </div>
-            </div>
-          </section>
         
 
         <section id="Projects" class="mt-10">
@@ -144,9 +147,6 @@
                 </div>
             </div>
         </section>
-        
-        
- 
 
         <footer class="bg-green-800 text-center text-white py-4">
             <div class="mb-4">
@@ -186,6 +186,6 @@
         
             <p class="text-sm">AOA &copy; 2024, All Rights Reserved</p>
         </footer>
-        
+<script src="app.js"></script>  
 </body>
 </html>
